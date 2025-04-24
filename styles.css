@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccee66;
+  color: white;
+  padding: 20px 160px; /* 1) Em cima e embaixo , 2) dos lados*/
+  height: 100vh; /*altura*/
+  overflow: hidden; /*esconder do que sobrou*/
+}
+
+body::before {
+  content: "";
+  background: #1b1b1b;
+  width: 100%;
+  height: 120%;
+  position: absolute; /*posição certa*/
+  top: 0;
+  left: -600px;
+  transform: rotate(-70deg);
+}
+
+body::after {
+  content: "Nike";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 250px;
+  font-weight: bold; /*grossura da fonte*/
+  opacity: 0.5;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/*sempre que for class = .logo*/
+.Logo {
+  width: 80px; /*largura*/
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  /*margin-bottom= embaixo
+    margin-top=em cima 
+    margin-left=esquerda
+    margin-right=direita*/
+}
+
+.botao-carrinho {
+  background: #a3be52;
+  padding: 10px 20px;
+  border-radius: 20px; /*arredondar botao*/
+  font-size: 16px;
+  color: black;
+  cursor: pointer; /*maozinha em cima do botao*/
+  transition: 0.5s; /*tempo para mudar a cor do botao*/
+}
+
+.botao-carrinho:hover {
+  opacity: 0.5; /*transparencia*/
+  background:#ccee66;
+  color: white;
+}
+
+.Tenis1 {
+  width: 800px;
+  transform: rotate(-25deg); /*rotaciona a imagem*/
+  filter: drop-shadow(30px 45px 40px #161616);
+  transition: 1.5s;
+  }
+
+.caixa-principal {
+  display: flex; /*habilita alguns superpodoeres */
+  justify-content: space-between; /*alinha na horizontal*/
+  align-items: center; /*alinha na vertifical*/
+  height: 75%;
+  position: relative; /*habilita o z-index*/
+  z-index: 1; /*determina qual ficara por baixou ou por cima*/
+}
+
+.caixa-texto {
+  max-width: 500px; /*largura maxima*/
+  font-family: "Noto Sans", sans-serif;
+}
+
+.troca-efeito{
+  opacity: 0;
+  transform: rotate(-20deg) translateY(-30px);
+}
+
+.caixa-botoes {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 10px; /*espaço*/
+}
+
+.botao {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.botao:active {
+  opacity: 0.6;
+}
+.verde {
+  background: #ccee66;
+}
+.rosa {
+  background: #ff9eb5;
+}
+.azul {
+  background: #58cced;
+}
