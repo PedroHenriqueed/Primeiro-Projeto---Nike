@@ -50,3 +50,6 @@ Foi utilizado para criar interatividade no nosso site.
 - Mudança do background do site de acordo com a escolha das cores selecionadas.
 - Mudança da imagem do Tênis de acordo com a escolha das cores selecionadas.
 - Mudança do botão "Adicionar ao carrinho".
+
+  <h2>Imagens do nosso site: </h2>
+  <h3>Na escolha da cor 🟢:  </h3>
