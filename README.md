@@ -53,3 +53,13 @@ Foi utilizado para criar interatividade no nosso site.
 
   <h2>Imagens do nosso site: </h2>
   <h3>Na escolha da cor 🟢:  </h3>
+  <br>
+ <img src="https://github.com/PedroHenriqueed/Primeiro-Projeto---Nike/blob/main/img/verde.png?raw=true">
+<br>
+<h3>Na escolha da cor 🔵:  </h3>
+<br>
+<img src="https://github.com/PedroHenriqueed/Primeiro-Projeto---Nike/blob/main/img/azul.png?raw=true">
+<br>
+<h3>Na escolha da cor 🔴:  </h3>
+  <br>
+  <img src="https://github.com/PedroHenriqueed/Primeiro-Projeto---Nike/blob/main/img/rosa.png?raw=true">
