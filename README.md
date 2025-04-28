@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <br>
 <br>
-<h2>O Projeto é uma tela desmontrando o tênis Nike Air Zoom, e tem as opções para você escolher outras cores, como :</h2>
+<h2>O Projeto é uma tela demonstrando o tênis Nike Air Zoom, e tem as opções para você escolher outras cores, como :</h2>
 🟢 Verde
 🔵 Azul
 🔴 Rosa
